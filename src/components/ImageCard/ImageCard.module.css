@@ -1,0 +1,14 @@
+.image {
+    width: 320px;
+    height: 200px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px #aaa solid;
+    object-fit: cover;
+    transition: 300ms;
+}
+
+.image:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
